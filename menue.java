@@ -7,6 +7,8 @@
  * Datum:     28.11.2014 //fuer Veraenderung zu demonstrieren
  * Compile:   javac menue.java
  * Execute:   java menu
+ *
+ * Testzeile fuer push aus KI-Labor cmd-Client 
  */
 
 import java.util.Scanner;
