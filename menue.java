@@ -25,6 +25,7 @@ public class menue{
 			final int YANNIC_HECKMANN=6;
 			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
+      final int NICLAS_STEFFEN = 101;
 
         	boolean isEnde=false;
 
@@ -67,6 +68,9 @@ public class menue{
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
 							break;
+              case NICLAS_STEFFEN:
+                  System.out.println("Niclas Steffen  ");
+              break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
