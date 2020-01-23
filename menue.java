@@ -89,7 +89,7 @@ public class menue{
 									System.out.println("Jan Ehrhardt");
 							break;
                             case JOHANNES_ORTH:
-                            System.out.println("Jan Ehrhardt");
+                            		System.out.println("Jan Ehrhardt");
                             break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
