@@ -33,7 +33,7 @@ public class menue{
                 final int JOHANNES_ORTH = 11;
                 final int ALTMEYER_JULIAN = 79;
    final int TORSTEN_MAHLER=32;
-   final int ARNE_KREUZ = 78;<
+   final int ARNE_KREUZ = 78;
 
         	boolean isEnde=false;
 
