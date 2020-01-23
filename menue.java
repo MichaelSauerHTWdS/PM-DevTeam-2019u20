@@ -24,6 +24,7 @@ public class menue{
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
 			final int YANI_DIAGNE = 7;
+		final int ANNIKA_MENDEN = 8;
 
         	boolean isEnde=false;
 
@@ -32,7 +33,8 @@ public class menue{
 				"Mike Sour",
 				"Maverick Studer",
 				"Laura Wagner",
-				"Lukas Roth"};
+				"Lukas Roth",
+				"Annika Menden"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -57,12 +59,15 @@ public class menue{
 							case LUKAS_ROTH:
                                     System.out.println("Lukas Roth");
                             break;
+				case ANNIKA_MENDEN:
+					System.out.println("Annika Menden");
+			    break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
-							break;
-							case YANNIC_HECKMANN:
-                                	System.out.println("Yani Diagne");
-							break;
+				break;
+			case YANI_DIAGNE:
+System.out.println("Yani Diagne");
+				break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
