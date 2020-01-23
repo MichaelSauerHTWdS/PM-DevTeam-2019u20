@@ -11,6 +11,8 @@
  * Testzeile fuer push aus KI-Labor cmd-Client 
  */
 
+ // Honor issssssssssso
+
 import java.util.Scanner;
 
 public class menue{
@@ -18,6 +20,7 @@ public class menue{
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
 			final int MIKE_SOUR=2;
+			final int DANIEL_EHRE=3;
         	boolean isEnde=false;
 
         	String[] textfeld={"Ciao",
@@ -38,6 +41,8 @@ public class menue{
                         	case MIKE_SOUR:
                                 	System.out.println("Mike Sour");
                         	break;
+							case DANIEL_EHRE:
+									System.out.println("Daniel-Shawn Long");
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
