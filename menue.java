@@ -8,7 +8,7 @@
  * Compile:   javac menue.java
  * Execute:   java menu
  *
- * Testzeile fuer push aus KI-Labor cmd-Client 
+ * Testzeile fuer push aus KI-Labor cmd-Client
  */
 
 import java.util.Scanner;
@@ -17,8 +17,10 @@ public class menue{
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
-			final int MIKE_SOUR=2;
-			final int LAURA_WAGNER = 3;
+			    final int MIKE_SOUR=2;
+			    final int LAURA_WAGNER = 3;
+          final int JOEL_VOGT = 99;
+
         	boolean isEnde=false;
 
         	String[] textfeld={"Ciao",
@@ -39,8 +41,11 @@ public class menue{
                         	case MIKE_SOUR:
                                 	System.out.println("Mike Sour");
                         	break;
-							case LAURA_WAGNER:
-									System.out.println("Laura Wagner");
+							            case LAURA_WAGNER:
+									                System.out.println("Laura Wagner");
+                          break;
+                          case JOEL_VOGT;
+                                  System.out.println("Joel Vogt blub");
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
