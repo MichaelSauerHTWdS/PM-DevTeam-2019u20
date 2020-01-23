@@ -31,7 +31,11 @@ public class menue{
 			final int JAN_EHRHARDT = 10;
           	final int TIM_LORSON=13;
             final int JOHANNES_ORTH = 11;
+<<<<<<< HEAD
             final int ALTMEYER_JULIAN = 79;
+=======
+	final int ARNE_KREUZ = 12;
+>>>>>>> arne
 
         	boolean isEnde=false;
 
@@ -48,6 +52,7 @@ public class menue{
 				"Yannic Heckmann",
 				"Yani Diagne",
                 "Moritz Siegel",
+				"Tomas Mann",
 				"Jan Ehrhardt",
 		        "Tim Lorson"
                 "Julian Altmeyer"};
@@ -63,10 +68,10 @@ public class menue{
 		final int TOMAS_MANN=9;
 		final int JAN_EHRHARDT = 10;
           	final int TIM_LORSON=13;
-            final int JOHANNES_ORTH = 11;
-            final int ALTMEYER_JULIAN = 79;
-
-            boolean isEnde=false;
+                final int JOHANNES_ORTH = 11;
+                final int ALTMEYER_JULIAN = 79;
+		final int ARNE_KREUZ = 78;<
+        	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
                         "Michael Sauer",
@@ -113,7 +118,8 @@ public class menue{
 					System.out.println("Annika Menden");
 			    break;
                             case YANNIC_HECKMANN:
-                                    System.out.println("Yannic Heckmann");
+                                	System.out.println("Yannic Heckmann");
+		
                             break;
                             case KIEFER_DAVID:
                             	    System.out.println("Kiefer David");
@@ -134,11 +140,15 @@ public class menue{
 									System.out.println("Tim Lorson");
                       break;
                             case JOHANNES_ORTH:
-                            		System.out.println("Johannes Orth");
-                            break;
+                            System.out.println("Jan Ehrhardt");
+                            System.out.println("Jan Ehrhardt");
+
                             case ALTMEYER_JULIAN:
                             System.out.println("Julian Altmeyer");
 
+                            break;
+                            case ARNE_KREUZ:
+                            		System.out.println("Arne Kreuz");
                             break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
