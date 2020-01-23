@@ -33,6 +33,7 @@ public class menue{
 				"Michael Sauer",
 				"Mike Sour",
 				"Maverick Studer",
+				"Tomas Mann",
 				"Laura Wagner",
 				"Lukas Roth",
 				"Moritz Siegel"};
