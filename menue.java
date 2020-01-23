@@ -29,9 +29,9 @@ public class menue{
 		final int MORITZ_SIEGEL = 8;
 			final int TOMAS_MANN=9;
 			final int JAN_EHRHARDT = 10;
-          final int TIM_LORSON=13;
+          	final int TIM_LORSON=13;
             final int JOHANNES_ORTH = 11;
-
+            final int ALTMEYER_JULIAN = 79;
 
         	boolean isEnde=false;
 
@@ -50,7 +50,8 @@ public class menue{
                 "Moritz Siegel",
 				"Tomas Mann",
 				"Jan Ehrhardt",
-        "Tim Lorson"};
+		        "Tim Lorson"
+                "Julian Altmeyer"};
 
 
         	while(!isEnde){
@@ -102,7 +103,12 @@ public class menue{
 									System.out.println("Tim Lorson");
                       break;
                             case JOHANNES_ORTH:
-                            		System.out.println("Jan Ehrhardt");
+                            System.out.println("Jan Ehrhardt");
+                            System.out.println("Jan Ehrhardt");
+
+                            case ALTMEYER_JULIAN:
+                            System.out.println("Julian Altmeyer");
+
                             break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
