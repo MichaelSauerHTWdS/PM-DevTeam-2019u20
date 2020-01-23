@@ -24,6 +24,7 @@ public class menue{
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
 			final int TOMAS_MANN=420;
+			final int YANI_DIAGNE = 7;
 
         	boolean isEnde=false;
 
@@ -59,6 +60,9 @@ public class menue{
                             break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
+							break;
+							case YANNIC_HECKMANN:
+                                	System.out.println("Yani Diagne");
 							break;
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
