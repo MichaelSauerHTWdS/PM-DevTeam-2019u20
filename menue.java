@@ -19,42 +19,50 @@ public class menue{
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
 
-		final int MIKE_SOUR=2;
-    final int STUDER_MAVERICK= 3;
-		final int LAURA_WAGNER = 4;
-		final int LUKAS_ROTH=5;
-		final int YANNIC_HECKMANN=6;
-		final int TOMAS_MANN=420;
-		final int YANI_DIAGNE = 7;
-		final int MORITZ_SIEGEL = 8;
-		final int TOMAS_MANN=9;
-		final int JAN_EHRHARDT = 10;
+     
+			final int MIKE_SOUR=2;
+            final int STUDER_MAVERICK= 3;
+			final int LAURA_WAGNER = 4;
+			final int LUKAS_ROTH=5;
+			final int YANNIC_HECKMANN=6;
+			final int TOMAS_MANN=7;
+			final int YANI_DIAGNE=8;
+		    final int ANNIKA_MENDEN=9;
+		    final int MORITZ_SIEGEL = 10;
+			final int TOMAS_MANN=11;
+			final int JAN_EHRHARDT = 12;
           	final int TIM_LORSON=13;
-                final int JOHANNES_ORTH = 11;
-                final int ALTMEYER_JULIAN = 79;
-   final int TORSTEN_MAHLER=32;
-   final int ARNE_KREUZ = 78;
-
+            final int JOHANNES_ORTH = 14;
+            final int ALTMEYER_JULIAN = 15;
+            final int AHMAD_RAJOUB = 16;
+            final int JOHANNES_ORTH = 17;
+            final int ALTMEYER_JULIAN = 18;
+	        final int ARNE_KREUZ = 19;
+		final int PHILIPPE_ALTMEIER = 20;
+          final int TORSTEN_MAHLER = 21;
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
-                        "Michael Sauer",
-                        "Mike Sour",
-                        "Maverick Studer",
-                        "Tomas Mann",
-                        "Laura Wagner",
-                        "Lukas Roth",
-                        "Moritz Siegel",
-                        "Lukas Roth",
-                        "Yannic Heckmann",
-                        "Yani Diagne",
-                        "Moritz Siegel",
-                        "Tomas Mann",
-                        "Jan Ehrhardt",
-                        "Tim Lorson",
-                        "Julian Altmeyer",
-                        "Torsten Mahler",
-                };
+				"Michael Sauer",
+				"Mike Sour",
+				"Maverick Studer",
+				"Tomas Mann",
+				"Laura Wagner",
+				"Lukas Roth",
+				"Annika Menden",
+				"Moritz Siegel",
+				"Lukas Roth",
+				"Yannic Heckmann",
+				"Yani Diagne",
+                "Moritz Siegel",
+				"Tomas Mann",
+				"Jan Ehrhardt",
+		        "Tim Lorson",
+                "Julian Altmeyer",
+			"Ahmad Rajoub",
+				"Philippe Altmeier",
+          "Torsten Mahler"
+        };
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -105,9 +113,10 @@ public class menue{
 							break;
 							case TIM_LORSON:
 									System.out.println("Tim Lorson");
-                      break;
-                            case JOHANNES_ORTH:
-                            System.out.println("Jan Ehrhardt");
+                            break;
+                            case AHMAD_RAJOUB:
+                                System.out.println("Ahmad Rajoub");
+                            break;                            case JOHANNES_ORTH:
                             System.out.println("Jan Ehrhardt");
 
                             case ALTMEYER_JULIAN:
@@ -123,7 +132,11 @@ public class menue{
 
                             case ARNE_KREUZ:
                             		System.out.println("Arne Kreuz");
+							break;
+							case PHILIPPE_ALTMEIER:
+                            		System.out.println("Philippe Altmeier");
                             break;
+                  
 
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
