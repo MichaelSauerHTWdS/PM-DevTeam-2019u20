@@ -23,8 +23,15 @@ public class menue{
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
+			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
-		final int ANNIKA_MENDEN = 8;
+		final int ANNIKA_MENDEN = 187;
+		final int MORITZ_SIEGEL = 8;
+			final int TOMAS_MANN=9;
+			final int JAN_EHRHARDT = 10;
+          final int TIM_LORSON=13;
+            final int JOHANNES_ORTH = 11;
+
 
         	boolean isEnde=false;
 
@@ -32,9 +39,19 @@ public class menue{
 				"Michael Sauer",
 				"Mike Sour",
 				"Maverick Studer",
+				"Tomas Mann",
 				"Laura Wagner",
 				"Lukas Roth",
 				"Annika Menden"};
+				"Moritz Siegel",
+				"Lukas Roth",
+				"Yannic Heckmann",
+				"Yani Diagne",
+                "Moritz Siegel",
+				"Tomas Mann",
+				"Jan Ehrhardt",
+        "Tim Lorson"};
+
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -64,10 +81,29 @@ public class menue{
 			    break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
-				break;
-			case YANI_DIAGNE:
-System.out.println("Yani Diagne");
-				break;
+		
+                            break;
+                            case KIEFER_DAVID:
+                            	    System.out.println("Kiefer David");
+                            break;
+							case YANI_DIAGNE:
+                                	System.out.println("Yani Diagne");
+							break;
+                            case MORITZ_SIEGEL:
+                                    System.out.println("Moritz Siegel");
+                            break;
+							case TOMAS_MANN:
+									System.out.println("Tomas Mann");
+							break;
+							case JAN_EHRHARDT:
+									System.out.println("Jan Ehrhardt");
+							break;
+							case TIM_LORSON:
+									System.out.println("Tim Lorson");
+                      break;
+                            case JOHANNES_ORTH:
+                            		System.out.println("Jan Ehrhardt");
+                            break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
