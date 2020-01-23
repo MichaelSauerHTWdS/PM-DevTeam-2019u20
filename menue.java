@@ -111,7 +111,7 @@ public class menue {
                         	System.out.println("Ahmad Rajoub");
                     break;                            
 					case JOHANNES_ORTH:
-                     		System.out.println("Jan Ehrhardt");
+                     		System.out.println("Johannes Orth, nicht Jan Ehrhardt");
 					break;
                     case ALTMEYER_JULIAN:
                     		System.out.println("Julian Altmeyer");
