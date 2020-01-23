@@ -13,45 +13,33 @@
 
 import java.util.Scanner;
 
-public class menue {
+public class menue{
 
         public static void main(String[] args) {
-    		final int PROGRAMMENDE=0;
+        	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
 			final int MIKE_SOUR=2;
-            final int STUDER_MAVERICK= 3;‚
+            final int STUDER_MAVERICK= 3;
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
-			final int TOMAS_MANN=420;
-			final int YANI_DIAGNE = 7;
-		final int ANNIKA_MENDEN = 187;
-		final int MORITZ_SIEGEL = 8;
-			final int TOMAS_MANN=9;
-			final int JAN_EHRHARDT = 10;
+			final int TOMAS_MANN=7;
+			final int YANI_DIAGNE=8;
+		    final int ANNIKA_MENDEN=9;
+		    final int MORITZ_SIEGEL = 10;
+			final int TOMAS_MANN=11;
+			final int JAN_EHRHARDT = 12;
           	final int TIM_LORSON=13;
-<<<<<<< HEAD
-                final int JOHANNES_ORTH = 11;
-                final int ALTMEYER_JULIAN = 79;
-            final int AHMAD_RAJOUB = 196;
-=======
-            final int JOHANNES_ORTH = 11;
-<<<<<<< HEAD
-<<<<<<< HEAD
-            final int MOHMAD_ZAR = 140;
-=======
-            final int ALTMEYER_JULIAN = 79;
->>>>>>> 4968bacb132872f89da8c86b3639252675fa358f
-=======
-            final int ALTMEYER_JULIAN = 79;
-=======
-	final int ARNE_KREUZ = 12;
->>>>>>> arne
->>>>>>> f9e2e31d13cdb810df1ccfa1e16beb77c86462d8
-
+            final int JOHANNES_ORTH = 14;
+            final int ALTMEYER_JULIAN = 15;
+            final int AHMAD_RAJOUB = 16;
+            final int JOHANNES_ORTH = 17;
+            final int ALTMEYER_JULIAN = 18;
+	        final int ARNE_KREUZ = 19;
+		final int PHILIPPE_ALTMEIER = 20;
         	boolean isEnde=false;
 
-			String[] textfeld={"Ciao",
+		String[] textfeld={"Ciao",
 				"Michael Sauer",
 				"Mike Sour",
 				"Maverick Studer",
@@ -65,50 +53,12 @@ public class menue {
 				"Yani Diagne",
                 "Moritz Siegel",
 				"Tomas Mann",
-<<<<<<< HEAD
-				"Jan Ehrhardt"
-				,"Mohamad zarzar"};
-=======
 				"Jan Ehrhardt",
 		        "Tim Lorson",
                 "Julian Altmeyer",
-            	"Ahmad Rajoub"
-        	};
-
-		final int MIKE_SOUR=2;
-                final int STUDER_MAVERICK= 3;
-		final int LAURA_WAGNER = 4;
-		final int LUKAS_ROTH=5;
-		final int YANNIC_HECKMANN=6;
-		final int TOMAS_MANN=420;
-		final int YANI_DIAGNE = 7;
-		final int MORITZ_SIEGEL = 8;
-		final int TOMAS_MANN=9;
-		final int JAN_EHRHARDT = 10;
-          	final int TIM_LORSON=13;
-                final int JOHANNES_ORTH = 11;
-                final int ALTMEYER_JULIAN = 79;
-		final int ARNE_KREUZ = 78;<
-        	boolean isEnde=false;
-
-		String[] textfeld={"Ciao",
-                        "Michael Sauer",
-                        "Mike Sour",
-                        "Maverick Studer",
-                        "Tomas Mann",
-                        "Laura Wagner",
-                        "Lukas Roth",
-                        "Moritz Siegel",
-                        "Lukas Roth",
-                        "Yannic Heckmann",
-                        "Yani Diagne",
-                        "Moritz Siegel",
-                        "Tomas Mann",
-                        "Jan Ehrhardt",
-                        "Tim Lorson"
-                        "Julian Altmeyer"
-                };
->>>>>>> 4968bacb132872f89da8c86b3639252675fa358f
+			"Ahmad Rajoub",
+				"Philippe Altmeier"
+        };
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -162,21 +112,17 @@ public class menue {
                                 System.out.println("Ahmad Rajoub");
                             break;                            case JOHANNES_ORTH:
                             System.out.println("Jan Ehrhardt");
-                            System.out.println("Jan Ehrhardt");
 
                             case ALTMEYER_JULIAN:
                             System.out.println("Julian Altmeyer");
 
                             break;
-<<<<<<< HEAD
-                            case MOHMAD_ZAR:
-                                System.out.println("Mohamad zarzar");
-                        break;
-=======
                             case ARNE_KREUZ:
                             		System.out.println("Arne Kreuz");
+							break;
+							case PHILIPPE_ALTMEIER:
+                            		System.out.println("Philippe Altmeier");
                             break;
->>>>>>> f9e2e31d13cdb810df1ccfa1e16beb77c86462d8
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
