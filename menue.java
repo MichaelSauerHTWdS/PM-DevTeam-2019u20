@@ -39,7 +39,7 @@ public class menue{
                         	case MIKE_SOUR:
                                 	System.out.println("Mike Sour");
                         	break;
-                            case PRIA:
+                            case PRIA_ANTON_RAJKUMAR:
                                     System.out.println("Pria Anton Rajkumar");
                             break;
                         	default:
