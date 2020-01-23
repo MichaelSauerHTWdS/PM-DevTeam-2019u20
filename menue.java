@@ -34,21 +34,22 @@ public class menue{
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
-				"Michael Sauer",
-				"Mike Sour",
-				"Maverick Studer",
-				"Tomas Mann",
-				"Laura Wagner",
-				"Lukas Roth",
-				"Moritz Siegel",
-				"Lukas Roth",
-				"Yannic Heckmann",
-				"Yani Diagne",
-                "Moritz Siegel",
-				"Tomas Mann",
-				"Jan Ehrhardt",
-		        "Tim Lorson"
-                "Julian Altmeyer"};
+                        "Michael Sauer",
+                        "Mike Sour",
+                        "Maverick Studer",
+                        "Tomas Mann",
+                        "Laura Wagner",
+                        "Lukas Roth",
+                        "Moritz Siegel",
+                        "Lukas Roth",
+                        "Yannic Heckmann",
+                        "Yani Diagne",
+                        "Moritz Siegel",
+                        "Tomas Mann",
+                        "Jan Ehrhardt",
+                        "Tim Lorson"
+                        "Julian Altmeyer"
+                };
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
