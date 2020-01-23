@@ -30,6 +30,7 @@ public class menue{
 			final int JAN_EHRHARDT = 11;
           	final int TIM_LORSON=12;
             final int JOHANNES_ORTH = 13;
+            final int ALTMEYER_JULIAN = 14;
 
         	boolean isEnde=false;
 
@@ -48,7 +49,8 @@ public class menue{
 				"Tomas Mann",
 				"Jan Ehrhardt",
 				"Tim Lorson",
-				"Johannes Orth"};
+				"Johannes Orth",
+                "Julian Altmeyer"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -96,6 +98,10 @@ public class menue{
                       		break;
                             case JOHANNES_ORTH:
                             		System.out.println("Johannes Orth");
+                            break;
+                            case ALTMEYER_JULIAN:
+                                    System.out.println("Julian Altmeyer");
+
                             break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
