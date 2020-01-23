@@ -8,12 +8,13 @@
  * Compile:   javac menue.java
  * Execute:   java menu
  *
- * Testzeile fuer push aus KI-Labor cmd-Client 
+ * Testzeile fuer push aus KI-Labor cmd-Client
  */
 
 import java.util.Scanner;
 
 public class menue{
+
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
@@ -23,11 +24,16 @@ public class menue{
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
 			final int KIEFER_DAVID = 7;
+			final int YANI_DIAGNE = 8;
+
         	boolean isEnde=false;
 
-        	String[] textfeld={"Ciao",
-                                "Michael Sauer",
-                                "Mike Sour"};
+		String[] textfeld={"Ciao",
+				"Michael Sauer",
+				"Mike Sour",
+				"Maverick Studer",
+				"Laura Wagner",
+				"Lukas Roth"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -49,7 +55,7 @@ public class menue{
 							case LAURA_WAGNER:
                                     System.out.println("Laura Wagner");
                             break;
-                            case LUKAS_ROTH:
+							case LUKAS_ROTH:
                                     System.out.println("Lukas Roth");
                             break;
                             case YANNIC_HECKMANN:
@@ -57,9 +63,15 @@ public class menue{
                             break;
                             case KIEFER_DAVID;
                             	    System.out.println("Kiefer David")
-                            default:
-                                	System.out.println("Fehler: Kenne ich nicht!");
-                        	}
+                            case YANNIC_HECKMANN:
+                                	System.out.println("Yannic Heckmann");
+							break;
+							case YANI_DIAGNE:
+                                	System.out.println("Yani Diagne");
+							break;
+                        	default:
+									System.out.println("Fehler: Kenne ich nicht!");
                 	}
         	}
 	}
+}
