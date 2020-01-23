@@ -24,7 +24,8 @@ public class menue{
 
         	String[] textfeld={"Ciao",
                                 "Michael Sauer",
-                                "Mike Sour"};
+                                "Mike Sour",
+                                "Leo Förster"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
