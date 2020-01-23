@@ -14,16 +14,22 @@
 import java.util.Scanner;
 
 public class menue{
+
 	public static void main(String[] args) {
 		final int PROGRAMMENDE=0;
 		final int MICHAEL_SAUER=1;
 		final int MIKE_SOUR=2;
-		final int LUKAS_ROTH=3;
+		final int STUDER_MAVERICK= 3;
+		final int LAURA_WAGNER = 4;
+		final int LUKAS_ROTH=5;
+
 		boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
 				"Michael Sauer",
 				"Mike Sour",
+				"Maverick Studer",
+				"Laura Wagner",
 				"Lukas Roth"};
 
 		while(!isEnde){
@@ -40,9 +46,16 @@ public class menue{
 				case MIKE_SOUR:
 					System.out.println("Mike Sour");
 					break;
+				case STUDER_MAVERICK:
+					System.out.println("Studer Maverick");
+					break;
+				case LAURA_WAGNER:
+					System.out.println("Laura Wagner");
+					break;
 				case LUKAS_ROTH:
 					System.out.println("Lukas Roth");
 					break;
+
 				default:
 					System.out.println("Fehler: Kenne ich nicht!");
 			}
