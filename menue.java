@@ -18,6 +18,7 @@ public class menue{
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
 			final int MIKE_SOUR=2;
+			final int STUDER_MAVERICK=9000;
         	boolean isEnde=false;
 
         	String[] textfeld={"Ciao",
@@ -38,6 +39,9 @@ public class menue{
                         	case MIKE_SOUR:
                                 	System.out.println("Mike Sour");
                         	break;
+							case STUDER_MAVERICK:
+									System.out.println("Studer Maverick");
+							break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
