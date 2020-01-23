@@ -23,13 +23,13 @@ public class menue{
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
-			final int TOMAS_MANN=420;
-			final int YANI_DIAGNE = 7;
-			final int MORITZ_SIEGEL = 8;
-			final int TOMAS_MANN=9;
-			final int JAN_EHRHARDT = 10;
-          final int TIM_LORSON=13;
-            final int JOHANNES_ORTH = 11;
+			final int TOMAS_MANN=7;
+			final int YANI_DIAGNE = 8;
+			final int MORITZ_SIEGEL = 9;
+			final int TOMAS_MANN=10;
+			final int JAN_EHRHARDT = 11;
+          	final int TIM_LORSON=12;
+            final int JOHANNES_ORTH = 13;
 
         	boolean isEnde=false;
 
@@ -47,7 +47,8 @@ public class menue{
                 "Moritz Siegel",
 				"Tomas Mann",
 				"Jan Ehrhardt",
-        "Tim Lorson"};
+				"Tim Lorson",
+				"Johannes Orth"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -92,9 +93,9 @@ public class menue{
 							break;
 							case TIM_LORSON:
 									System.out.println("Tim Lorson");
-                      break;
+                      		break;
                             case JOHANNES_ORTH:
-                            		System.out.println("Jan Ehrhardt");
+                            		System.out.println("Johannes Orth");
                             break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
