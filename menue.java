@@ -29,6 +29,7 @@ public class menue{
 			final int TOMAS_MANN=9;
 			final int JAN_EHRHARDT = 10;
           final int TIM_LORSON=13;
+            final int JOHANNES_ORTH = 11;
 
         	boolean isEnde=false;
 
@@ -74,7 +75,7 @@ public class menue{
                             case YANNIC_HECKMANN:
                                     System.out.println("Yannic Heckmann");
                             break;
-                            case KIEFER_DAVID;
+                            case KIEFER_DAVID:
                             	    System.out.println("Kiefer David");
                             break;
                             case YANNIC_HECKMANN:
@@ -95,6 +96,9 @@ public class menue{
 							case TIM_LORSON:
 									System.out.println("Tim Lorson");
                       break;
+                            case JOHANNES_ORTH:
+                            		System.out.println("Jan Ehrhardt");
+                            break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
