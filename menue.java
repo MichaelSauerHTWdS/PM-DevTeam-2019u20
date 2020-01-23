@@ -31,7 +31,8 @@ public class menue{
 				"Mike Sour",
 				"Maverick Studer",
 				"Laura Wagner",
-				"Lukas Roth"};
+				"Lukas Roth",
+                "Julian Altmeyer"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -58,6 +59,9 @@ public class menue{
                             break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
+                            break;
+                            case ALTMEYER_JULIAN:
+                            System.out.println("Julian Altmeyer");
 							break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
