@@ -20,6 +20,7 @@ public class menue{
 			final int MIKE_SOUR=2;
             final int STUDER_MAVERICK= 3;
 			final int LAURA_WAGNER = 4;
+			final int MISCHA_NGUYEN = 6;
         	boolean isEnde=false;
 
         	String[] textfeld={"Ciao",
@@ -45,7 +46,10 @@ public class menue{
 							break;
 							case LAURA_WAGNER:
                                     System.out.println("Laura Wagner");
-                            break;
+							break;
+							case MISCHA_NGUYEN:
+									System.out.println("Mischa Viet-Phong Nguyen")
+							break;
 
                         default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
