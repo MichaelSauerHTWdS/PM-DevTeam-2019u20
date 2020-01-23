@@ -32,7 +32,6 @@ public class menue{
             final int JOHANNES_ORTH = 14;
             final int ALTMEYER_JULIAN = 15;
             final int AHMAD_RAJOUB = 16;
-            final int JOHANNES_ORTH = 17;
 	        final int ARNE_KREUZ = 19;
 	        
 		final int PHILIPPE_ALTMEIER = 20;
