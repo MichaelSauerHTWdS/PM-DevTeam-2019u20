@@ -23,6 +23,7 @@ public class menue{
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
+            final int ALTMEYER_JULIAN=79;
 
         	boolean isEnde=false;
 
