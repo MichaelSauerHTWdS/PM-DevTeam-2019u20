@@ -64,7 +64,8 @@ public class menue{
                                     System.out.println("Yannic Heckmann");
                             break;
                             case KIEFER_DAVID;
-                            	    System.out.println("Kiefer David")
+                            	    System.out.println("Kiefer David");
+                            break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
 							break;
