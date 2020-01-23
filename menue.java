@@ -31,6 +31,7 @@ public class menue{
           	final int TIM_LORSON=13;
                 final int JOHANNES_ORTH = 11;
                 final int ALTMEYER_JULIAN = 79;
+            final int AHMAD_RAJOUB = 196;
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
@@ -47,8 +48,10 @@ public class menue{
                 "Moritz Siegel",
 				"Tomas Mann",
 				"Jan Ehrhardt",
-		        "Tim Lorson"
-                "Julian Altmeyer"};
+		        "Tim Lorson",
+                "Julian Altmeyer",
+            "Ahmad Rajoub"
+        };
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -93,8 +96,10 @@ public class menue{
 							break;
 							case TIM_LORSON:
 									System.out.println("Tim Lorson");
-                      break;
-                            case JOHANNES_ORTH:
+                            break;
+                            case AHMAD_RAJOUB:
+                                System.out.println("Ahmad Rajoub");
+                            break;                            case JOHANNES_ORTH:
                             System.out.println("Jan Ehrhardt");
                             System.out.println("Jan Ehrhardt");
 
