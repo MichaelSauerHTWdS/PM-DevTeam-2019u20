@@ -29,6 +29,7 @@ public class menue{
 			final int TOMAS_MANN=9;
 			final int JAN_EHRHARDT = 10;
             final int JOHANNES_ORTH = 11;
+			final int DANIEL_EHRE=12;
 
         	boolean isEnde=false;
 
@@ -45,7 +46,8 @@ public class menue{
 				"Yani Diagne",
                 "Moritz Siegel",
 				"Tomas Mann",
-				"Jan Ehrhardt"};
+				"Jan Ehrhardt",
+				"Daniel-Shawn Long"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -94,6 +96,9 @@ public class menue{
                             case JOHANNES_ORTH:
                             System.out.println("Jan Ehrhardt");
                             break;
+							case DANIEL_EHRE:
+									System.out.println("Daniel-Shawn Long");
+							break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
