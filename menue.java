@@ -23,19 +23,19 @@ public class menue{
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
-			final int TOMAS_MANN=420;
-			final int YANI_DIAGNE = 7;
-		    final int ANNIKA_MENDEN = 187;
-		    final int MORITZ_SIEGEL = 8;
-			final int TOMAS_MANN=9;
-			final int JAN_EHRHARDT = 10;
+			final int TOMAS_MANN=7;
+			final int YANI_DIAGNE=8;
+		    final int ANNIKA_MENDEN=9;
+		    final int MORITZ_SIEGEL = 10;
+			final int TOMAS_MANN=11;
+			final int JAN_EHRHARDT = 12;
           	final int TIM_LORSON=13;
-            final int JOHANNES_ORTH = 11;
-            final int ALTMEYER_JULIAN = 79;
-            final int AHMAD_RAJOUB = 196;
-            final int JOHANNES_ORTH = 11;
-            final int ALTMEYER_JULIAN = 79;
-	        final int ARNE_KREUZ = 12;
+            final int JOHANNES_ORTH = 14;
+            final int ALTMEYER_JULIAN = 15;
+            final int AHMAD_RAJOUB = 16;
+            final int JOHANNES_ORTH = 17;
+            final int ALTMEYER_JULIAN = 18;
+	        final int ARNE_KREUZ = 19;
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
@@ -57,7 +57,7 @@ public class menue{
                 "Julian Altmeyer",
             "Ahmad Rajoub"
         };
-        
+
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
