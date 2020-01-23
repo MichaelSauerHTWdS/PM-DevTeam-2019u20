@@ -25,8 +25,9 @@ public class menue{
 			final int YANNIC_HECKMANN=6;
 			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
-			final int JAN_EHRHARDT = 8;
-			final int MORITZ_SIEGEL = 9;
+			final int MORITZ_SIEGEL = 8;
+			final int TOMAS_MANN=9;
+			final int JAN_EHRHARDT = 10;
 
         	boolean isEnde=false;
 
@@ -34,10 +35,16 @@ public class menue{
 				"Michael Sauer",
 				"Mike Sour",
 				"Maverick Studer",
+				"Tomas Mann",
 				"Laura Wagner",
 				"Lukas Roth",
-				"Jan Ehrhardt",
-				"Moritz Siegel"};
+				"Moritz Siegel",
+				"Lukas Roth",
+				"Yannic Heckmann",
+				"Yani Diagne",
+                "Moritz Siegel",
+				"Tomas Mann",
+				"Jan Ehrhardt"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -74,11 +81,11 @@ public class menue{
 							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
 							break;
+                            case MORITZ_SIEGEL:
+                                    System.out.println("Moritz Siegel");
+                            break;
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
-							break;
-							case MORITZ_SIEGEL:
-									System.out.println("Moritz Siegel");
 							break;
 							case JAN_EHRHARDT:
 									System.out.println("Jan Ehrhardt");
