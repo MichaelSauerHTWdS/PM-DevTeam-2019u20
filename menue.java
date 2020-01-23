@@ -23,8 +23,8 @@ public class menue{
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
-			final int KIEFER_DAVID = 7;
-			final int YANI_DIAGNE = 8;
+			final int TOMAS_MANN=420;
+			final int YANI_DIAGNE = 7;
 
         	boolean isEnde=false;
 
@@ -68,6 +68,9 @@ public class menue{
 							break;
 							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
+							break;
+							case TOMAS_MANN:
+									System.out.println("Tomas Mann");
 							break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
