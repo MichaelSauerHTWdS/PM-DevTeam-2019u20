@@ -27,6 +27,7 @@ public class menue{
 			final int YANI_DIAGNE = 7;
 			final int MORITZ_SIEGEL = 8;
 			final int TOMAS_MANN=9;
+                        final int AARON_BETZHOLZ = 10;
 
         	boolean isEnde=false;
 
@@ -41,7 +42,8 @@ public class menue{
 				"Yannic Heckmann",
 				"Yani Diagne",
                 "Moritz Siegel",
-				"Tomas Mann"};
+				"Tomas Mann",
+                                "Aaron Betzholz"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -80,6 +82,9 @@ public class menue{
 							break;
                             case MORITZ_SIEGEL:
                                     System.out.println("Moritz Siegel");
+                            break;
+                            case AARON_BETZHOLZ:
+                                   System.out.println("Aaron Betzholz");
                             break;
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
