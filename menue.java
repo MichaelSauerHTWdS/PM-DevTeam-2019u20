@@ -13,8 +13,8 @@
 
 import java.util.Scanner;
 
-public class menue{
-
+public class menue {
+	
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
@@ -29,14 +29,11 @@ public class menue{
 			final int TOMAS_MANN=9;
 			final int JAN_EHRHARDT = 10;
             final int JOHANNES_ORTH = 11;
-<<<<<<< HEAD
 			final int DANIEL_EHRE=12;
-=======
->>>>>>> master
 
         	boolean isEnde=false;
 
-		String[] textfeld={"Ciao",
+			String[] textfeld={"Ciao",
 				"Michael Sauer",
 				"Mike Sour",
 				"Maverick Studer",
@@ -49,16 +46,14 @@ public class menue{
 				"Yani Diagne",
                 "Moritz Siegel",
 				"Tomas Mann",
-<<<<<<< HEAD
 				"Jan Ehrhardt",
 				"Daniel-Shawn Long"};
-=======
-				"Jan Ehrhardt"};
->>>>>>> master
 
-        	while(!isEnde){
+        	while(!isEnde) {
+
                 	Scanner scanner = new Scanner(System.in);
                 	int wahl = scanner.nextInt();
+
                 	switch (wahl) {
                         	case PROGRAMMENDE:
                                 	System.out.println(textfeld[0]);
@@ -101,14 +96,11 @@ public class menue{
 									System.out.println("Jan Ehrhardt");
 							break;
                             case JOHANNES_ORTH:
-                            System.out.println("Jan Ehrhardt");
+                            		System.out.println("Jan Ehrhardt");
                             break;
-<<<<<<< HEAD
 							case DANIEL_EHRE:
 									System.out.println("Daniel-Shawn Long");
 							break;
-=======
->>>>>>> master
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
