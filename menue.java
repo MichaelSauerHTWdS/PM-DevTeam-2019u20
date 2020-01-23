@@ -16,60 +16,66 @@ import java.util.Scanner;
 public class menue{
 
         public static void main(String[] args) {
-        	final int PROGRAMMENDE=0;
-        	final int MICHAEL_SAUER=1;
-			final int MIKE_SOUR=2;
+            final int PROGRAMMENDE=0;
+            final int MICHAEL_SAUER=1;
+            final int MIKE_SOUR=2;
             final int STUDER_MAVERICK= 3;
-			final int LAURA_WAGNER = 4;
-			final int LUKAS_ROTH=5;
-			final int YANNIC_HECKMANN=6;
-			final int TOMAS_MANN=420;
-			final int YANI_DIAGNE = 7;
+            final int LAURA_WAGNER = 4;
+            final int LUKAS_ROTH=5;
+            final int YANNIC_HECKMANN=6;
+            final int TOMAS_MANN=420;
+            final int YANI_DIAGNE = 7;
+            final int MIKE_KASPER = 1312;
 
-        	boolean isEnde=false;
+            boolean isEnde=false;
 
-		String[] textfeld={"Ciao",
-				"Michael Sauer",
-				"Mike Sour",
-				"Maverick Studer",
-				"Laura Wagner",
-				"Lukas Roth"};
+        String[] textfeld={"Ciao",
+                "Michael Sauer",
+                "Mike Sour",
+                "Maverick Studer",
+                "Laura Wagner",
+                "Lukas Roth",
+                "Mike Kasper"
+};
 
-        	while(!isEnde){
-                	Scanner scanner = new Scanner(System.in);
-                	int wahl = scanner.nextInt();
-                	switch (wahl) {
-                        	case PROGRAMMENDE:
-                                	System.out.println(textfeld[0]);
-                                	isEnde=true;
-                        	break;
-                        	case MICHAEL_SAUER:
-                                	System.out.println("Michael Sauer");
-                        	break;
-                        	case MIKE_SOUR:
-                                	System.out.println("Mike Sour");
-                        	break;
-							case STUDER_MAVERICK:
-									System.out.println("Studer Maverick");
-							break;
-							case LAURA_WAGNER:
+            while(!isEnde){
+                    Scanner scanner = new Scanner(System.in);
+                    int wahl = scanner.nextInt();
+                    switch (wahl) {
+                            case PROGRAMMENDE:
+                                    System.out.println(textfeld[0]);
+                                    isEnde=true;
+                            break;
+                            case MICHAEL_SAUER:
+                                    System.out.println("Michael Sauer");
+                            break;
+                            case MIKE_SOUR:
+                                    System.out.println("Mike Sour");
+                            break;
+                            case STUDER_MAVERICK:
+                                    System.out.println("Studer Maverick");
+                            break;
+                            case LAURA_WAGNER:
                                     System.out.println("Laura Wagner");
                             break;
-							case LUKAS_ROTH:
+                            case LUKAS_ROTH:
                                     System.out.println("Lukas Roth");
                             break;
                             case YANNIC_HECKMANN:
-                                	System.out.println("Yannic Heckmann");
-							break;
-							case YANNIC_HECKMANN:
-                                	System.out.println("Yani Diagne");
-							break;
-							case TOMAS_MANN:
-									System.out.println("Tomas Mann");
-							break;
-                        	default:
-									System.out.println("Fehler: Kenne ich nicht!");
-                	}
-        	}
-	}
+                                    System.out.println("Yannic Heckmann");
+                            break;
+                            case YANI_DIAGNE:
+                                    System.out.println("Yani Diagne");
+                            break;
+                            case TOMAS_MANN:
+                                    System.out.println("Tomas Mann");
+                            break;
+                            default:
+                                    System.out.println("Fehler: Kenne ich nicht!");
+                            case MIKE_KASPER:
+                                    System.out.println("Mike Kasper");
+                            break;            
+                                }
+            }
+    }
 }
