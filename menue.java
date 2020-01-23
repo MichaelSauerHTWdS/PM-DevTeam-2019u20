@@ -18,9 +18,7 @@ public class menue{
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
-        	final int MIKE_SOUR=2;
-        	boolean isEnde=false;
-          
+
 		final int MIKE_SOUR=2;
     final int STUDER_MAVERICK= 3;
 		final int LAURA_WAGNER = 4;
@@ -34,7 +32,9 @@ public class menue{
           	final int TIM_LORSON=13;
                 final int JOHANNES_ORTH = 11;
                 final int ALTMEYER_JULIAN = 79;
-          final int TORSTEN_MAHLER=32;
+   final int TORSTEN_MAHLER=32;
+   final int ARNE_KREUZ = 78;<
+
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
@@ -81,8 +81,12 @@ public class menue{
 							case LUKAS_ROTH:
                                     System.out.println("Lukas Roth");
                             break;
+				case ANNIKA_MENDEN:
+					System.out.println("Annika Menden");
+			    break;
                             case YANNIC_HECKMANN:
-                                    System.out.println("Yannic Heckmann");
+                                	System.out.println("Yannic Heckmann");
+		
                             break;
                             case KIEFER_DAVID:
                             	    System.out.println("Kiefer David");
@@ -110,10 +114,16 @@ public class menue{
                             System.out.println("Julian Altmeyer");
 
                             break;
+
                       
                       	    case TORSTEN_MAHLER:
 							              System.out.println("Torsten Mahler");
                         	  break;
+
+
+                            case ARNE_KREUZ:
+                            		System.out.println("Arne Kreuz");
+                            break;
 
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
