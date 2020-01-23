@@ -39,8 +39,9 @@ public class menue{
                         	case MIKE_SOUR:
                                 	System.out.println("Mike Sour");
 
+                             break;
 						     case TORSTEN_MAHLER:
-							         System.out.println("Torsten Mahler"):
+							         System.out.println("Torsten Mahler");
                         	break;
 
                         	default:
