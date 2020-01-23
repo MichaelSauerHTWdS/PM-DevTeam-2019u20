@@ -44,7 +44,7 @@ public class menue{
 									System.out.println("Laura Wagner");
                             break;
                             case LEO_FOERSTER:
-                            System.out.println("Leon Förster");
+                            System.out.println("Leo Förster");
                             
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
