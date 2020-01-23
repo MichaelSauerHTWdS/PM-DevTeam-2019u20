@@ -25,8 +25,11 @@ public class menue{
 			final int YANNIC_HECKMANN=6;
 			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
+<<<<<<< HEAD
 			final int DANIEL_EHRE=8;
 			final int KIEFER_DAVID=9;
+=======
+>>>>>>> master
 
         	boolean isEnde=false;
 
@@ -35,8 +38,12 @@ public class menue{
 				"Mike Sour",
 				"Maverick Studer",
 				"Laura Wagner",
+<<<<<<< HEAD
 				"Lukas Roth",
 				"Daniel-Shawn Long"};
+=======
+				"Lukas Roth"};
+>>>>>>> master
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -64,8 +71,14 @@ public class menue{
                             case YANNIC_HECKMANN:
                                     System.out.println("Yannic Heckmann");
                             break;
-                            case KIEFER_DAVID:
-                            	    System.out.println("Kiefer David");
+<<<<<<< HEAD
+                            
+=======
+                            case KIEFER_DAVID;
+                            	    System.out.println("Kiefer David")
+                            case YANNIC_HECKMANN:
+                                	System.out.println("Yannic Heckmann");
+>>>>>>> master
 							break;
 							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
@@ -73,8 +86,11 @@ public class menue{
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
 							break;
+<<<<<<< HEAD
 							case DANIEL_EHRE:
 									System.out.println("Daniel-Shawn Long");
+=======
+>>>>>>> master
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
