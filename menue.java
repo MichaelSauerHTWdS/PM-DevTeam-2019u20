@@ -30,6 +30,7 @@ public class menue{
 			final int JAN_EHRHARDT = 10;
           final int TIM_LORSON=13;
             final int JOHANNES_ORTH = 11;
+	final int ARNE_KREUZ = 12;
 
         	boolean isEnde=false;
 
@@ -95,6 +96,9 @@ public class menue{
                       break;
                             case JOHANNES_ORTH:
                             		System.out.println("Jan Ehrhardt");
+                            break;
+                            case ARNE_KREUZ:
+                            		System.out.println("Arne Kreuz");
                             break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
