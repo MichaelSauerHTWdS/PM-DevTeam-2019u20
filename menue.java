@@ -18,12 +18,12 @@ public class menue{
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
 			final int MIKE_SOUR=2;
-            final int PRIA=666;
+            final int PRIA_ANTON_RAJKUMAR=666;
         	boolean isEnde=false;
 
         	String[] textfeld={"Ciao",
                                 "Michael Sauer",
-                                "Mike Sour"};
+                                "Mike Sour","Pria Anton Rajkumar"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
