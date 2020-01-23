@@ -31,7 +31,11 @@ public class menue{
 			final int JAN_EHRHARDT = 10;
           	final int TIM_LORSON=13;
             final int JOHANNES_ORTH = 11;
+<<<<<<< HEAD
             final int ALTMEYER_JULIAN = 79;
+=======
+	final int ARNE_KREUZ = 12;
+>>>>>>> arne
 
         	boolean isEnde=false;
 
@@ -66,6 +70,7 @@ public class menue{
           	final int TIM_LORSON=13;
                 final int JOHANNES_ORTH = 11;
                 final int ALTMEYER_JULIAN = 79;
+		final int ARNE_KREUZ = 78;<
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
@@ -141,6 +146,9 @@ public class menue{
                             case ALTMEYER_JULIAN:
                             System.out.println("Julian Altmeyer");
 
+                            break;
+                            case ARNE_KREUZ:
+                            		System.out.println("Arne Kreuz");
                             break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
