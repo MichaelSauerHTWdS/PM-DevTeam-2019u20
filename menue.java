@@ -18,19 +18,19 @@ public class menue{
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
-			final int MIKE_SOUR=2;
-            final int STUDER_MAVERICK= 3;
-			final int LAURA_WAGNER = 4;
-			final int LUKAS_ROTH=5;
-			final int YANNIC_HECKMANN=6;
-			final int TOMAS_MANN=420;
-			final int YANI_DIAGNE = 7;
-			final int MORITZ_SIEGEL = 8;
-			final int TOMAS_MANN=9;
-			final int JAN_EHRHARDT = 10;
+		final int MIKE_SOUR=2;
+                final int STUDER_MAVERICK= 3;
+		final int LAURA_WAGNER = 4;
+		final int LUKAS_ROTH=5;
+		final int YANNIC_HECKMANN=6;
+		final int TOMAS_MANN=420;
+		final int YANI_DIAGNE = 7;
+		final int MORITZ_SIEGEL = 8;
+		final int TOMAS_MANN=9;
+		final int JAN_EHRHARDT = 10;
           	final int TIM_LORSON=13;
-            final int JOHANNES_ORTH = 11;
-            final int ALTMEYER_JULIAN = 79;
+                final int JOHANNES_ORTH = 11;
+                final int ALTMEYER_JULIAN = 79;
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
