@@ -22,7 +22,8 @@ public class menue{
             final int STUDER_MAVERICK= 3;
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
-                        final int YANNIC_HECKMANN=6;
+			final int LUCAS_SEFRIN = 777;
+			final int YANNIC_HECKMANN=6;
 
         	boolean isEnde=false;
 
@@ -31,7 +32,8 @@ public class menue{
 				"Mike Sour",
 				"Maverick Studer",
 				"Laura Wagner",
-				"Lukas Roth"};
+				"Lukas Roth",
+				"Lucas Sefrin"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -49,6 +51,9 @@ public class menue{
                         	break;
 							case STUDER_MAVERICK:
 									System.out.println("Studer Maverick");
+							break;
+							case LUCAS_SEFRIN:
+							System.out.println("Lucas Sefrin");
 							break;
 							case LAURA_WAGNER:
                                     System.out.println("Laura Wagner");
