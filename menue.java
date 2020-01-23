@@ -76,9 +76,6 @@ public class menue{
                             case KIEFER_DAVID:
                             	    System.out.println("Kiefer David");
                             break;
-                            case YANNIC_HECKMANN:
-                                	System.out.println("Yannic Heckmann");
-							break;
 							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
 							break;
