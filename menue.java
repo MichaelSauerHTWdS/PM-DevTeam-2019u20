@@ -25,6 +25,7 @@ public class menue{
 			final int YANNIC_HECKMANN=6;
 			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
+			final int LEON_SCHMIDT= 1337;
 		final int ANNIKA_MENDEN = 187;
 		final int MORITZ_SIEGEL = 8;
 			final int TOMAS_MANN=9;
@@ -55,42 +56,9 @@ public class menue{
 				"Jan Ehrhardt",
 		        "Tim Lorson",
                 "Julian Altmeyer",
-            "Ahmad Rajoub"
+            	"Ahmad Rajoub",
+				"Leon Schmidt"
         };
-
-		final int MIKE_SOUR=2;
-        final int STUDER_MAVERICK= 3;
-		final int LAURA_WAGNER = 4;
-		final int LUKAS_ROTH=5;
-		final int YANNIC_HECKMANN=6;
-		final int YANI_DIAGNE = 7;
-		final int MORITZ_SIEGEL = 8;
-		final int TOMAS_MANN=9;
-		final int JAN_EHRHARDT = 10;
-        final int JOHANNES_ORTH = 11;
-		final int TIM_LORSON=12;
-        final int ALTMEYER_JULIAN = 13;
-		final int ARNE_KREUZ = 14;
-
-        boolean isEnde=false;
-
-		String[] textfeld={"Ciao",
-                        "Michael Sauer",
-                        "Mike Sour",
-                        "Maverick Studer",
-                        "Tomas Mann",
-                        "Laura Wagner",
-                        "Lukas Roth",
-                        "Moritz Siegel",
-                        "Lukas Roth",
-                        "Yannic Heckmann",
-                        "Yani Diagne",
-                        "Moritz Siegel",
-                        "Tomas Mann",
-                        "Jan Ehrhardt",
-                        "Tim Lorson",
-                        "Julian Altmeyer"
-                };
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -120,7 +88,6 @@ public class menue{
 			    break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
-		
                             break;
                             case KIEFER_DAVID:
                             	    System.out.println("Kiefer David");
@@ -142,9 +109,10 @@ public class menue{
                             break;
                             case AHMAD_RAJOUB:
                                 System.out.println("Ahmad Rajoub");
-                            break;                            case JOHANNES_ORTH:
-                            System.out.println("Jan Ehrhardt");
-
+                            break;
+                            case JOHANNES_ORTH:
+                            System.out.println("Johannes Orth");
+                            break;
                             case ALTMEYER_JULIAN:
                             System.out.println("Julian Altmeyer");
 
@@ -152,6 +120,9 @@ public class menue{
                             case ARNE_KREUZ:
                             		System.out.println("Arne Kreuz");
                             break;
+							case LEON_SCHMIDT:
+								System.out.println("Leon  Schmidt");
+							break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
