@@ -61,9 +61,14 @@ public class menue{
                                     System.out.println("Lukas Roth");
                             break;
                             case YANNIC_HECKMANN:
+                                    System.out.println("Yannic Heckmann");
+                            break;
+                            case KIEFER_DAVID;
+                            	    System.out.println("Kiefer David")
+                            case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
 							break;
-							case YANNIC_HECKMANN:
+							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
 							break;
 							case TOMAS_MANN:
