@@ -64,7 +64,7 @@ public class menue{
                             case YANNIC_HECKMANN:
                                 System.out.println("Yannic Heckmann");
                                 break;
-                        default:
+                        	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                 	}
         	}
