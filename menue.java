@@ -30,19 +30,12 @@ public class menue{
 			final int TOMAS_MANN=9;
 			final int JAN_EHRHARDT = 10;
           	final int TIM_LORSON=13;
-<<<<<<< HEAD
                 final int JOHANNES_ORTH = 11;
                 final int ALTMEYER_JULIAN = 79;
             final int AHMAD_RAJOUB = 196;
-=======
             final int JOHANNES_ORTH = 11;
-<<<<<<< HEAD
             final int ALTMEYER_JULIAN = 79;
-=======
 	final int ARNE_KREUZ = 12;
->>>>>>> arne
-
->>>>>>> cd7f7bd20879f84d988c796cf86e8ad0883dc456
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
@@ -78,7 +71,7 @@ public class menue{
           	final int TIM_LORSON=13;
                 final int JOHANNES_ORTH = 11;
                 final int ALTMEYER_JULIAN = 79;
-		final int ARNE_KREUZ = 78;<
+		final int ARNE_KREUZ = 78;
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
