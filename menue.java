@@ -42,8 +42,9 @@ public class menue{
                         	break;
 							case STUDER_MAVERICK:
 									System.out.println("Studer Maverick");
-							break;case LAURA_WAGNER:
-                            System.out.println("Laura Wagner");
+							break;
+							case LAURA_WAGNER:
+                                    System.out.println("Laura Wagner");
                             break;
 
                         default:
