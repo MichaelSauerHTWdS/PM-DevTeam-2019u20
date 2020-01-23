@@ -23,7 +23,8 @@ public class menue{
 
         	String[] textfeld={"Ciao",
                                 "Michael Sauer",
-								"Mike Sour"};
+								"Mike Sour",
+								"Tim Lorson"};
 								
 
         	while(!isEnde){
@@ -39,7 +40,10 @@ public class menue{
                         	break;
                         	case MIKE_SOUR:
                                 	System.out.println("Mike Sour");
-                        	break;
+							break;
+							case TIM_LORSON:
+									System.out.println("Tim Lorson"),
+							break;
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
