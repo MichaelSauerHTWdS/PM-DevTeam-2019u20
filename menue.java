@@ -23,8 +23,8 @@ public class menue{
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
-			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
+			final int TOMAS_MANN=8;
 
         	boolean isEnde=false;
 
@@ -33,7 +33,10 @@ public class menue{
 				"Mike Sour",
 				"Maverick Studer",
 				"Laura Wagner",
-				"Lukas Roth"};
+				"Lukas Roth",
+				"Yannic Heckmann",
+				"Yani Diagne",
+				"Tomas Mann"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
