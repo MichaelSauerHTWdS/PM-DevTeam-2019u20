@@ -120,7 +120,6 @@ public class menue{
                             break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
-		
                             break;
                             case KIEFER_DAVID:
                             	    System.out.println("Kiefer David");
@@ -142,9 +141,10 @@ public class menue{
                             break;
                             case AHMAD_RAJOUB:
                                     System.out.println("Ahmad Rajoub");
-                            break;                            case JOHANNES_ORTH:
-                                    System.out.println("Jan Ehrhardt");
-
+                            break;
+                            case JOHANNES_ORTH:
+                                    System.out.println("Johannes Orth");
+							break;
                             case ALTMEYER_JULIAN:
                                     System.out.println("Julian Altmeyer");
                             break;
