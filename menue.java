@@ -38,6 +38,7 @@ public class menue{
 		final int PHILIPPE_ALTMEIER = 20;
 		final int MOHAMAD_ZARZAR = 21;
 		final int KIEFER_DAVID = 22;
+        final int FERAS_EJNEID = 23;
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
@@ -58,7 +59,8 @@ public class menue{
 		        "Tim Lorson",
                 "Julian Altmeyer",
 			"Ahmad Rajoub",
-				"Philippe Altmeier","Mohamad zarzar"
+				"Philippe Altmeier","Mohamad zarzar",
+                "Feras Ejnied"
         };
 
         	while(!isEnde){
@@ -126,6 +128,9 @@ public class menue{
                             break;
 							case MOHAMAD_ZARZAR:
                         		System.out.println("Mohamad zarzar");
+                        break;
+                        case FERAS_EJNEID:
+                                System.out.println("Feras Ejneid");
                         break;
                             
                         	default:
