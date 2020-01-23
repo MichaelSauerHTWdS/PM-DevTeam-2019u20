@@ -26,6 +26,7 @@ public class menue{
 			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
 			final int MORITZ_SIEGEL = 8;
+			final int TOMAS_MANN=9;
 
         	boolean isEnde=false;
 
@@ -36,7 +37,12 @@ public class menue{
 				"Tomas Mann",
 				"Laura Wagner",
 				"Lukas Roth",
-				"Moritz Siegel"};
+				"Moritz Siegel",
+				"Lukas Roth",
+				"Yannic Heckmann",
+				"Yani Diagne",
+                "Moritz Siegel",
+				"Tomas Mann"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -73,11 +79,11 @@ public class menue{
 							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
 							break;
+                            case MORITZ_SIEGEL:
+                                    System.out.println("Moritz Siegel");
+                            break;
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
-							break;
-							case MORITZ_SIEGEL:
-									System.out.println("Moritz Siegel");
 							break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
