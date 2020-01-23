@@ -45,7 +45,7 @@ public class menue{
 									                System.out.println("Laura Wagner");
                           break;
                           case JOEL_VOGT;
-                                  System.out.println("Joel Vogt wer das liest ist doof");
+                                  System.out.println("Joel Vogt wer das liest ist da bescdsaadsadsasdasdads");
                         	default:
                                 	System.out.println("Fehler: Kenne ich nicht!");
                         	}
