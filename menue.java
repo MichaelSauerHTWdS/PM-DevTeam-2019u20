@@ -33,9 +33,11 @@ public class menue{
             final int ALTMEYER_JULIAN = 15;
             final int AHMAD_RAJOUB = 16;
 	        final int ARNE_KREUZ = 19;
+			
 	        
 		final int PHILIPPE_ALTMEIER = 20;
 		final int MOHAMAD_ZARZAR = 21;
+		final int KIEFER_DAVID = 22;
         	boolean isEnde=false;
 
 		String[] textfeld={"Ciao",
