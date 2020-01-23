@@ -25,6 +25,7 @@ public class menue{
 			final int YANNIC_HECKMANN=6;
 			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
+			final int JAN_EHRHARDT = 8;
 
         	boolean isEnde=false;
 
@@ -33,7 +34,8 @@ public class menue{
 				"Mike Sour",
 				"Maverick Studer",
 				"Laura Wagner",
-				"Lukas Roth"};
+				"Lukas Roth",
+				"Jan Ehrhardt"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -71,6 +73,9 @@ public class menue{
 							break;
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
+							break;
+							case JAN_EHRHARDT:
+									System.out.println("Jan Ehrhardt");
 							break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
