@@ -22,7 +22,7 @@ public class menue{
             final int STUDER_MAVERICK= 3;
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
-                        final int YANNIC_HECKMANN=6;
+			final int YANNIC_HECKMANN=6;
 
         	boolean isEnde=false;
 
@@ -57,10 +57,10 @@ public class menue{
                                     System.out.println("Lukas Roth");
                             break;
                             case YANNIC_HECKMANN:
-                                System.out.println("Yannic Heckmann");
-                                break;
-                        default:
-                                	System.out.println("Fehler: Kenne ich nicht!");
+                                	System.out.println("Yannic Heckmann");
+							break;
+                        	default:
+									System.out.println("Fehler: Kenne ich nicht!");
                 	}
         	}
 	}
