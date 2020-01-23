@@ -23,8 +23,10 @@ public class menue{
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
+			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
-			final int TOMAS_MANN=8;
+			final int MORITZ_SIEGEL = 8;
+			final int TOMAS_MANN=9;
 
         	boolean isEnde=false;
 
@@ -34,8 +36,11 @@ public class menue{
 				"Maverick Studer",
 				"Laura Wagner",
 				"Lukas Roth",
+				"Moritz Siegel",
+				"Lukas Roth",
 				"Yannic Heckmann",
 				"Yani Diagne",
+                "Moritz Siegel",
 				"Tomas Mann"};
 
         	while(!isEnde){
@@ -73,6 +78,9 @@ public class menue{
 							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
 							break;
+                            case MORITZ_SIEGEL:
+                                    System.out.println("Moritz Siegel");
+                            break;
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
 							break;
