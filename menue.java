@@ -18,16 +18,50 @@ public class menue{
         public static void main(String[] args) {
         	final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
-		    final int MIKE_SOUR=2;
+			final int MIKE_SOUR=2;
             final int STUDER_MAVERICK= 3;
-		    final int LAURA_WAGNER = 4;
-		    final int LUKAS_ROTH=5;
-		    final int YANNIC_HECKMANN=6;
-		    final int TOMAS_MANN=420;
-		    final int YANI_DIAGNE = 7;
-		    final int MORITZ_SIEGEL = 8;
-		    final int TOMAS_MANN=9;
-		    final int JAN_EHRHARDT = 10;
+			final int LAURA_WAGNER = 4;
+			final int LUKAS_ROTH=5;
+			final int YANNIC_HECKMANN=6;
+			final int TOMAS_MANN=420;
+			final int YANI_DIAGNE = 7;
+		final int ANNIKA_MENDEN = 187;
+		final int MORITZ_SIEGEL = 8;
+			final int TOMAS_MANN=9;
+			final int JAN_EHRHARDT = 10;
+          	final int TIM_LORSON=13;
+            final int JOHANNES_ORTH = 11;
+            final int ALTMEYER_JULIAN = 79;
+
+        	boolean isEnde=false;
+
+		String[] textfeld={"Ciao",
+				"Michael Sauer",
+				"Mike Sour",
+				"Maverick Studer",
+				"Tomas Mann",
+				"Laura Wagner",
+				"Lukas Roth",
+				"Annika Menden"};
+				"Moritz Siegel",
+				"Lukas Roth",
+				"Yannic Heckmann",
+				"Yani Diagne",
+                "Moritz Siegel",
+				"Jan Ehrhardt",
+		        "Tim Lorson"
+                "Julian Altmeyer"};
+
+		final int MIKE_SOUR=2;
+                final int STUDER_MAVERICK= 3;
+		final int LAURA_WAGNER = 4;
+		final int LUKAS_ROTH=5;
+		final int YANNIC_HECKMANN=6;
+		final int TOMAS_MANN=420;
+		final int YANI_DIAGNE = 7;
+		final int MORITZ_SIEGEL = 8;
+		final int TOMAS_MANN=9;
+		final int JAN_EHRHARDT = 10;
           	final int TIM_LORSON=13;
             final int JOHANNES_ORTH = 11;
             final int ALTMEYER_JULIAN = 79;
@@ -75,6 +109,9 @@ public class menue{
 							case LUKAS_ROTH:
                                     System.out.println("Lukas Roth");
                             break;
+				case ANNIKA_MENDEN:
+					System.out.println("Annika Menden");
+			    break;
                             case YANNIC_HECKMANN:
                                     System.out.println("Yannic Heckmann");
                             break;
