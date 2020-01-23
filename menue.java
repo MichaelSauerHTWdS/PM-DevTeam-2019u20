@@ -25,11 +25,10 @@ public class menue{
 			final int YANNIC_HECKMANN=6;
 			final int TOMAS_MANN=420;
 			final int YANI_DIAGNE = 7;
-<<<<<<< HEAD
-			final int DANIEL_EHRE=8;
-			final int KIEFER_DAVID=9;
-=======
->>>>>>> master
+			final int MORITZ_SIEGEL = 8;
+			final int TOMAS_MANN=9;
+			final int JAN_EHRHARDT = 10;
+            final int JOHANNES_ORTH = 11;
 
         	boolean isEnde=false;
 
@@ -37,13 +36,16 @@ public class menue{
 				"Michael Sauer",
 				"Mike Sour",
 				"Maverick Studer",
+				"Tomas Mann",
 				"Laura Wagner",
-<<<<<<< HEAD
 				"Lukas Roth",
-				"Daniel-Shawn Long"};
-=======
-				"Lukas Roth"};
->>>>>>> master
+				"Moritz Siegel",
+				"Lukas Roth",
+				"Yannic Heckmann",
+				"Yani Diagne",
+                "Moritz Siegel",
+				"Tomas Mann",
+				"Jan Ehrhardt"};
 
         	while(!isEnde){
                 	Scanner scanner = new Scanner(System.in);
@@ -71,26 +73,27 @@ public class menue{
                             case YANNIC_HECKMANN:
                                     System.out.println("Yannic Heckmann");
                             break;
-<<<<<<< HEAD
-                            
-=======
-                            case KIEFER_DAVID;
-                            	    System.out.println("Kiefer David")
+                            case KIEFER_DAVID:
+                            	    System.out.println("Kiefer David");
+                            break;
                             case YANNIC_HECKMANN:
                                 	System.out.println("Yannic Heckmann");
->>>>>>> master
 							break;
 							case YANI_DIAGNE:
                                 	System.out.println("Yani Diagne");
 							break;
+                            case MORITZ_SIEGEL:
+                                    System.out.println("Moritz Siegel");
+                            break;
 							case TOMAS_MANN:
 									System.out.println("Tomas Mann");
 							break;
-<<<<<<< HEAD
-							case DANIEL_EHRE:
-									System.out.println("Daniel-Shawn Long");
-=======
->>>>>>> master
+							case JAN_EHRHARDT:
+									System.out.println("Jan Ehrhardt");
+							break;
+                            case JOHANNES_ORTH:
+                            System.out.println("Jan Ehrhardt");
+                            break;
                         	default:
 									System.out.println("Fehler: Kenne ich nicht!");
                 	}
