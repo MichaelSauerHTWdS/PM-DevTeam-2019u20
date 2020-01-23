@@ -19,7 +19,7 @@ public class menue {
     		final int PROGRAMMENDE=0;
         	final int MICHAEL_SAUER=1;
 			final int MIKE_SOUR=2;
-            final int STUDER_MAVERICK= 3;‚
+            final int STUDER_MAVERICK= 3;
 			final int LAURA_WAGNER = 4;
 			final int LUKAS_ROTH=5;
 			final int YANNIC_HECKMANN=6;
